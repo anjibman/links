@@ -80,7 +80,7 @@ hr.style-four {
 .site-header-wrap {
  background: #20262c;
  margin-bottom: 60px;
- padding: 60px 0px 50px;
+ padding: 25px 0px 25px;
 }
 .site-header {
  margin: 0px auto;
@@ -142,25 +142,68 @@ li.active a, li.active a:hover {
  display: block;
 }
 .button-link {
-  background: #4479BA;
   border: solid 1px #20538D;
   border-radius: 4px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
-  color: #FFF;
   margin:0 10px 10px 0;
   padding: 10px 15px;
   display: inline-block;
+  min-width: 12%;
 }
-.button-link:hover {
- background: #356094;
+
+.button-link.hidden {
+	visibility: hidden;
+}
+
+.type {
+  background: #FF0;
+  color: #008000; 
+  font-weight: bold;
+  text-align: left;
+}
+.item {
+  background: #6495ED;
+  text-align: center;
+  color: #FFF;  
+}
+.item:hover {
+ background: #1E90FF;
  border: solid 1px #2A4E77;
  text-decoration: none;
 }
-.button-link:active {
- background: #2E5481;
- border: solid 1px #203E5F;
- box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
- moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
- webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+.jd {
+  background: #008000;
+  color: #000;
+}
+.jd:hover {
+  background: #006400;
+}
+.b2b {
+  background: #FFA500;
+  color: #000;
+}
+.b2b:hover {
+  background: #FF8C00;
+}
+.tools {
+  background: #A0522D;
+  color: #000;
+}
+.tools:hover {
+  background: #8B4513;
+}
+.env {
+  background: #DEB887;
+  color: #000;
+}
+.env:hover {
+ background: #D2B48C;
+}
+.team {
+   background: #00FFA0;
+   color: #000;
+}
+.team:hover {
+  background: #00E9A0;
 }
