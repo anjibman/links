@@ -7,8 +7,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
  border: 0;
@@ -18,7 +18,7 @@ time, mark, audio, video {
  padding: 0;
  vertical-align: baseline;
 }
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
  display: block;
 }
@@ -74,7 +74,7 @@ hr.style-four {
 }
 .main {
  margin: 0px auto;
- max-width: 1000px;
+ max-width: 1120px;
  width: 90%;
 }
 .site-header-wrap {
@@ -149,7 +149,7 @@ li.active a, li.active a:hover {
   margin:0 10px 10px 0;
   padding: 10px 15px;
   display: inline-block;
-  min-width: 12%;
+  min-width: 13%;
 }
 
 .button-link.hidden {
@@ -158,41 +158,11 @@ li.active a, li.active a:hover {
 
 .type {
   background: #FF0;
-  color: #008000; 
+  color: #008000;
   font-weight: bold;
   text-align: left;
 }
-.item {
-  background: #6495ED;
-  text-align: center;
-  color: #FFF;  
-}
-.item:hover {
- background: #1E90FF;
- border: solid 1px #2A4E77;
- text-decoration: none;
-}
-.jd {
-  background: #008000;
-  color: #000;
-}
-.jd:hover {
-  background: #006400;
-}
-.b2b {
-  background: #FFA500;
-  color: #000;
-}
-.b2b:hover {
-  background: #FF8C00;
-}
-.tools {
-  background: #A0522D;
-  color: #000;
-}
-.tools:hover {
-  background: #8B4513;
-}
+
 .env {
   background: #DEB887;
   color: #000;
@@ -200,10 +170,55 @@ li.active a, li.active a:hover {
 .env:hover {
  background: #D2B48C;
 }
+
+.item {
+  background: #6495ED;
+  text-align: center;
+  color: #FFF;
+}
+.item:hover {
+ background: #63b1ed;
+ border: solid 1px #2A4E77;
+ text-decoration: none;
+}
+
+.jd {
+  background: #008000;
+  color: #000;
+}
+.jd:hover {
+  background: #006400;
+}
+
+.myteam {
+  background: #FFA500;
+  color: #000;
+}
+.myteam:hover {
+  background: #FF8C00;
+}
+
+.sai {
+  background: #28F3E9;
+  color: #000;
+  text-align: center;
+}
+.sai:hover {
+  background: #27ef9f;
+}
+
 .team {
    background: #00FFA0;
    color: #000;
 }
 .team:hover {
   background: #00E9A0;
+}
+
+.tools {
+  background: #A0522D;
+  color: #000;
+}
+.tools:hover {
+  background: #8B4513;
 }
